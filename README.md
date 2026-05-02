@@ -1,6 +1,6 @@
 # Animal Adoption Analysis
 
-This project analyzes animal adoption data from the Austin Animal Center to understand factors influencing adoption outcomes. The analysis includes data preprocessing, exploratory data analysis, visualizations, and machine learning models (Logistic Regression and MLP Classifier) to predict adoption likelihood. Additionally, LIME is used to interpret model predictions on individual examples.
+This project, created for UT Austin's I310D (Intro to Human-Centered Data Science) by Isa Melendez, Anoushka Kancherla, and Anzhelika Lomakina, analyzes animal adoption data from the Austin Animal Center in order to understand factors influencing adoption outcomes. The analysis includes data preprocessing, exploratory data analysis, visualizations, and machine learning models (Logistic Regression and MLP Classifier) to predict adoption likelihood. Additionally, LIME is used to interpret model predictions on individual examples.
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ The analysis uses the dataset `Austin_Animal_Center_Outcomes_20260415.csv`, whic
 
 ## Notes
 
-- This analysis focuses on Dogs and Cats only, merging "Puppy" and "Kitten" into their adult categories.
+- This analysis focuses on dogs and cats only, merging "Puppy" and "Kitten" into their adult categories.
 - Rare breeds and colors are grouped into "Other" categories to prevent overfitting.
 - Models are evaluated using accuracy, precision, recall, F1-score, and classification reports.
 - LIME is used to explain individual predictions and analyze feature contributions.
